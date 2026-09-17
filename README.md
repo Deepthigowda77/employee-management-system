@@ -1,16 +1,45 @@
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack Employee Management System that I built while learning and practicing React, Node.js, Express, MySQL, and JWT authentication.
 
-Currently, two official plugins are available:
+## What I worked on
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Employee login and authentication
+- Add new employees
+- View employee details
+- Edit employee information
+- Delete employees
+- Protected routes using JWT
+- Password checking using bcrypt
+- MySQL database integration
+- REST API using Node.js and Express
+- React Router for navigation
+- Redux Toolkit for employee data
+- Dark mode using Context API
+- Axios for API communication
 
-## React Compiler
+## Technologies I Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- HTML
+- CSS
+- Node.js
+- Express.js
+- MySQL
+- JWT
+- bcrypt
+- Axios
+- Redux Toolkit
+- Git
+- GitHub
 
-## Expanding the ESLint configuration
+## Project Purpose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I created this project to improve my practical understanding of frontend and backend development and to learn how different technologies work together in a full-stack application.
+
+## Current Status
+
+The application is working locally with React as the frontend, Node.js and Express as the backend, and MySQL as the database.
+
+I am continuing to improve the project and learn more about Git, GitHub, Docker, deployment, and CI/CD.
