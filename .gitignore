@@ -14,7 +14,7 @@ dist-ssr
 
 # Editor directories and files
 .vscode/*
-!.vscode/extensions.json
+!.vscode/extensiomduns.json
 .idea
 .DS_Store
 *.suo
@@ -26,3 +26,4 @@ dist-ssr
 
 .env
 backend/.env
+employee_management_backup.sql
