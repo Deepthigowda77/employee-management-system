@@ -37,11 +37,19 @@ api.interceptors.response.use(
       console.log("API Error Message:", error.response.data);
 
 
-      if (error.response.status === 401) {
-  localStorage.removeItem("token");
-  localStorage.removeItem("user");
+//       if (error.response.status === 401) {
+//   localStorage.removeItem("token");
+//   localStorage.removeItem("user");
 
-  window.location.href = "/login";
+//   window.location.href = "/login";
+
+//   return Promise.reject(error);
+// }
+
+
+if (error.response.status === 401) {
+  console.log("401 ERROR DETAILS:", error.response.data);
+  console.log("401 ERROR MESSAGE:", error.message);
 
   return Promise.reject(error);
 }
